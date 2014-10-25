@@ -1,0 +1,20 @@
+<head>
+<title></title>
+<img src='http://yila.cyphercode.co/yourtracking.php?associateid=503' width='0'>
+<style>
+button {width:100px; height:30px;}
+</style>
+<script type='text/javascript' src='http://www.youtube.com/player_api'></script>
+<script type='text/javascript'>
+var player;
+function onYouTubePlayerAPIReady() {player = new YT.Player('player');}
+</script>
+</head>
+<body>
+<iframe id='player' width='853' height='480' src='//www.youtube.com/embed/tmeOjFno6Do?rel=0&amp;enablejsapi=1' frameborder='0' allowfullscreen></iframe>	
+<br>
+<br>
+<button onclick="player.pauseVideo();">Pause</button>
+<button onclick="player.playVideo();">Play</button>
+<button onclick="player.stopVideo();">Stop</button>
+</body>
